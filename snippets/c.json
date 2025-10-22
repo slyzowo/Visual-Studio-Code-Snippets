@@ -1,0 +1,114 @@
+{
+
+  "int main()": {
+    "prefix": "main",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main() {",
+      "",
+      "\t$0",
+      "",
+      "return 0;",
+      "}"
+    ],
+    "description": "Basic main function"
+  },
+
+  "multiline comment": {
+    "prefix": "/*",
+    "body": [
+      "/*",
+      "\t",
+      "*/"
+    ],
+    "description": "Multi-Line Comment"
+  },
+
+  "if statement": {
+    "prefix": "if",
+    "body": [
+      "if(){",
+      "\t",
+      "}"
+    ],
+    "description": "If statement"
+  },
+
+  "switch statement": {
+    "prefix": "switch",
+    "body": [
+      "switch(){",
+      "",
+      "\tcase 1:",
+      "\tbreak;",
+      "",
+      "\tdefault:",
+      "\tbreak;",
+      "}"
+    ],
+    "description": "switch statement"
+  },
+
+  "for loop statement": {
+    "prefix": "for",
+    "body": [
+      "for(){",
+      "",
+      "}"
+    ],
+    "description": "for loop statement"
+  },
+
+  "while loop statement": {
+    "prefix": "while",
+    "body": [
+      "while(){",
+      "",
+      "}"
+    ],
+    "description": "while loop statement"
+  },
+
+  "do while loop statement": {
+    "prefix": "do",
+    "body": [
+      "do(){",
+      "",
+      "}",
+      "while()"
+    ],
+    "description": "do while loop statement"
+  },
+
+  "enum statement": {
+    "prefix": "enum",
+    "body": [
+      "enum {",
+      "",
+      "}"
+    ],
+    "description": "enumeration statement"
+  },
+
+  "struct statement": {
+    "prefix": "struct",
+    "body": [
+      "struct {",
+      "",
+      "};"
+    ],
+    "description": "structure statement"
+  },
+
+  "union statement": {
+    "prefix": "union",
+    "body": [
+      "union {",
+      "",
+      "};"
+    ],
+    "description": "union statement"
+  }
+
+}
